@@ -1,0 +1,12 @@
+{
+  "id": "poker-hand-hud",
+  "title": "Sora's Poker Hand HUD（DH）",
+  "description": "Poker-hand style item HUD with a customizable status bar, integrated assets, and visual effects.",
+  "version": "6.3.0",
+  "authors": [{ "name": "Sora" }],
+  "compatibility": { "minimum": "13", "verified": "13" },
+  "esmodules": ["scripts/poker-hand-hud.js"],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}

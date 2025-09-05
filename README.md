@@ -1,4 +1,39 @@
 # Sora-s-Poker-Hand-HUD-Dagger-heart-
+
+About Card Images
+Welcome to the module! To ensure free and safe usage for everyone, this module does not come with any built-in art assets. However, this gives you complete freedom to customize unique cards that fit your game's style!
+The setup process is simple. You only need to prepare two main images: a Card Base Image and a Mask Image.
+1. Card Base Image
+What is it? This is the background frame for your card, like a blank card with a beautiful border.
+What is it for?
+It serves as the background for the final card face.
+The background for cards in your hand will be this image.
+Recommendations:
+Use a common card aspect ratio, such as 600x840 pixels.
+Save it as a PNG or WEBP file.
+2. Mask Image
+What is it? A simple black-and-white image that defines the shape of the main art area on your card.
+How does it work?
+The white areas of the mask will reveal your Item's main image.
+The black or transparent areas will be treated as transparent, masking out the Item's image.
+Example: If your mask is a white circle on a black background, all your card art will be cropped into a perfect circle.
+Recommendations:
+Its dimensions should be identical to your Card Base Image.
+It must be a pure black-and-white image, with no shades of gray.
+Save it as a PNG file.
+Setup Instructions
+1. Prepare Your Images:
+Create or download the Card Base and Mask images that you like.
+Upload these images to a location in your Foundry VTT Data folder (creating a new folder like data/my-card-assets/ is recommended).
+2. Configure Module Settings:
+In the game, navigate to Game Settings -> Configure Settings.
+Find the settings section for this module.
+3. Assign Image Paths:
+Card Base Path: Click the Browse button and use the File Picker to select your uploaded Card Base Image.
+Mask Path: Click Browse and select your uploaded Mask Image.
+Custom Card Back
+You can also upload a fully custom image to be used as the back of the cards. In the module settings, simply assign your chosen image to the Card Back Path option.
+
 Poker-hand style item HUD with a customizable status bar, integrated assets, and visual effects.
 You can open the HUD by clicking the bookmark button on the left side of the screen (the bookmark's position can be adjusted in the settings).If you don't have a token selected, the HUD will automatically display the first character you own (convenient for "theater of the mind" style play).If you are the GM, the HUD will display for your selected token (you may need to click the "Reset" button to refresh the character).
 
